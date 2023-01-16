@@ -3,7 +3,7 @@ const countdownElement = document.querySelector(".countdown");
 
 //Начинаем дату отсчёта
 // год ; месяц ; день ; часы ; минуты ; секунды
-let countdownDate = new Date(2024, 1, 2, 2, 20).getTime();
+let countdownDate = new Date(2025, 1, 2, 2, 20).getTime();
 
 function getCountdownTime() {
   //Получить текущее время
