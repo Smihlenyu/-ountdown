@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f5f6;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 36px;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.countdown {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  min-width: 320px;
+}
+
+.countdown-item {
+  background-color: #49a6e900;
+  padding: 6px;
+  min-height: 65px;
+}
+
+.expired {
+  color: #222;
+  margin: 0 auto;
+}
